@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "jrhuerta-authentication-test"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1gmlfi4adwzc4"
+s3_prefix = "jrhuerta-authentication-test"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "OrganizationUUID=\"jrhuerta-authentication-test\""
+
